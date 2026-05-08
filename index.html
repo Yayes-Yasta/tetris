@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="icon.ico" type="image/x-icon" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tetris</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: rgb(255, 0, 0);
+    }
+  </style>
+  <script>
+    // disabling scrolling from "up", "right", "down", "left" and " " keys
+    window.addEventListener("keydown", (e) => {
+      switch(e.keyCode) {
+        case 32: 
+        case 37: 
+        case 38: 
+        case 39: 
+        case 40:
+          e.preventDefault();
+          break;
+        default:
+          break;
+      }
+    });
+  </script>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.sound.js"></script>
+  <script src="libraries/colors.js"></script>
+  <script src="classes/blocks.js"></script>
+  <script src="classes/tetrominoes.js"></script>
+  <script src="classes/game.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <main>
+  </main>
+</body>
+
+</html>
