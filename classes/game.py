@@ -5,7 +5,7 @@ import numpy as np
 import pygame
 
 from classes.tetrominoes import Square, Straight, S, Z, L, J, T
-from libraries.colors import LINES, BACKGROUND
+from colors.colors import LINES, BACKGROUND
 
 tetrominoes = [T, Straight, Square, J, L, Z, S]
 

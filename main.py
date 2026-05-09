@@ -12,7 +12,8 @@ from classes.game import Game
 def main(height=500):
     """This is the main function that gets executed when this file is run"""
     # initialization
-    pygame.init()
+    pygame.display.init()
+    pygame.font.init()
     pygame.joystick.init()
     # variables
     square_size = height // 22
@@ -90,8 +91,7 @@ def main(height=500):
 
     pygame.display.quit()
     pygame.joystick.quit()
-    quit()
-    print("End reached")
+    pygame.font.quit()
     sys.exit()
 
 
