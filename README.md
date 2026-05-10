@@ -8,6 +8,7 @@ I basically built Tetris in both Python using pygame and in Javascript using the
 
 ### Keyboard
 
+```
 LEFT/RIGHT -> move blocks left and right
 
 UP -> immmediately bring blocks to the ground
@@ -17,6 +18,7 @@ DOWN -> move blocks one tile down
 SPACE -> rotate blocks
 
 C -> switch current blocks with the blocks in the HOLD window
+```
 
 ### Controller
 
@@ -24,6 +26,7 @@ Controller inputs are only supported in the Python version. Not in the Javascrip
 
 All directional inputs should be done using the D-pad.
 
+```
 LEFT/RIGHT -> move blocks left and right
 
 UP -> immmediately bring blocks to the ground
@@ -33,6 +36,7 @@ DOWN -> move blocks one tile down
 A (X on Playstation) -> rotate blocks
 
 LB (L1 on Playstation) -> switch current blocks with the blocks in the HOLD window
+```
 
 ## Usage
 
